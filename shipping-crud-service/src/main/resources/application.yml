@@ -1,0 +1,9 @@
+spring:
+  application.name: shpping-crud-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/shipping?useSSL=false
+    username: root
+    password: rootroot
+  jpa:
+    hibernate.ddl-auto: create
+    show-sql: true
