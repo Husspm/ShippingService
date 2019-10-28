@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/ShippingService.iml" filepath="$PROJECT_DIR$/.idea/ShippingService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/shipping-crud-service/shipping-crud-service.iml" filepath="$PROJECT_DIR$/shipping-crud-service/shipping-crud-service.iml" />
     </modules>
   </component>
