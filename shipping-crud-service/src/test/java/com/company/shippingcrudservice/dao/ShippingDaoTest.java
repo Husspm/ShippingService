@@ -81,6 +81,7 @@ public class ShippingDaoTest {
         Optional<Invoice> getUpdated = dao.findById(invoice.getInvoiceId());
 
         assertTrue(getUpdated.isPresent());
+        getUpdated.ifPresent(val-> assertEquals(invoice, val));
 
     }
 
